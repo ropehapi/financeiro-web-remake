@@ -13,6 +13,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get("/", function () {
+    return view("welcome");
 });
+
+Route::get("/wallets", "WalletController@index")->name("wallets");
+Route::get("/wallet/{id}","WalletController@show")->name("showWallet");
+Route::get("/wallet","WalletController@create")->name("createWallet");
+Route::post("/wallet","WalletController@store")->name("storeWallet");
+Route::get("/wallet/{id}","WalletController@edit")->name("editWallet");
+Route::put("/wallet/{id}","WalletController@update")->name("updateWallet");
+Route::delete("/wallet/{id}","WalletController@destroy")->name("destroyWallet");

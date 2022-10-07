@@ -43,7 +43,7 @@
                             <a class="nav-link" href="{{route("wallets")}}">Minhas carteiras</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><p>Cadastrar carteira</p></a>
+                            <a class="nav-link" href="{{route("createWallet")}}"><p>Cadastrar carteira</p></a>
                         </li>
                     </ul>
                 </li>

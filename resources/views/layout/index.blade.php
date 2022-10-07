@@ -41,6 +41,7 @@
         <script src="http://127.0.0.1/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
         <script src="http://127.0.0.1/vendor/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
         <script src="http://127.0.0.1/vendor/adminlte/dist/js/adminlte.min.js"></script>
+        <script src="https://igorescobar.github.io/jQuery-Mask-Plugin/js/jquery.mask.min.js"></script>
         @yield("js")
     </body>
 </html>
