@@ -24,7 +24,6 @@ class WalletController extends Controller
 
     public function store(StoreWalletRequest $request)
     {
-        dd(number_format((float)$request->amount,2,",","."));
         $wallet = new Wallet();
         $wallet->name = $request->name;
         $wallet->currency = $request->currency;

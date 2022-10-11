@@ -31,12 +31,12 @@
                         </div>
                         <div class="row">
                             <div class="form-group col-md-6">
-                                <label>Quantia</label>
+                                <label>Saldo</label>
                                 <div class="input-group">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text">R$</span>
                                     </div>
-                                    <input name="amount" id="amount" type="text" class="form-control" placeholder="Quantia na carteira">
+                                    <input name="amount" id="amount" type="number" class="form-control" step="0.01" min="0.01">
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -57,14 +57,10 @@
             </div>
         </div>
     </div>
-
-    </div>
 @stop
 
 @section('js')
     <script type="text/javascript">
-        $(document).ready(function(){
-            $("#amount").mask("#.##0,00", {reverse: true});
-        });
+        $(document).ready(function(){});
     </script>
 @stop
