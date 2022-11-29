@@ -1,4 +1,4 @@
-## Financeiro Web Boosted
+## Financeiro Web Remake
 
 Desenvolvido em 2020, o [FinanceiroWeb](https://github.com/ropehapi/financeiro-web) é uma plataforma de gestão financeira casual desenvolvida durante um curso básico de PHP na academia WMBarros treinamento em TI.
 
