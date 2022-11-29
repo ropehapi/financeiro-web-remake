@@ -1,6 +1,6 @@
 ## Financeiro Web Boosted
 
-Desenvolvido em 2020, o [FinanceiroWeb](https://github.com/ropehapi/FinanceiroWeb) é uma plataforma de gestão financeira casual desenvolvida durante um curso básico de PHP na academia WMBarros treinamento em TI.
+Desenvolvido em 2020, o [FinanceiroWeb](https://github.com/ropehapi/financeiro-web) é uma plataforma de gestão financeira casual desenvolvida durante um curso básico de PHP na academia WMBarros treinamento em TI.
 
 Hoje, dois anos depois, marcando o término dos meus estudos em PHP, decidi fazer o FinanceiroWebBoosted, que seria uma refatoração do projeto original, visando aplicar as melhores e mais modernas técnicas de desenvolvimento, para que ao final da refatoração, eu possa contemplar a diferença entre o meu primeiro e meu último projeto de estudos em PHP.
 
